@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PatchManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self _commonInit];
     return YES;
 }
 
@@ -40,6 +42,12 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - 
+
+- (void)_commonInit {
+    [[PatchManager sharedInstance] initialize];
 }
 
 @end

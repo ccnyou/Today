@@ -28,12 +28,14 @@ PODS:
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
+  - Toast (3.0)
 
 DEPENDENCIES:
   - AFNetworking
   - JSPatch
   - NYTPhotoViewer
   - SDWebImage
+  - Toast
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -41,5 +43,6 @@ SPEC CHECKSUMS:
   JSPatch: c689ea4dde17441f2f4a95d40dfedb8900c20099
   NYTPhotoViewer: e80e8767f3780d2df37c6f72cbab15d6c7232911
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
 
 COCOAPODS: 0.39.0

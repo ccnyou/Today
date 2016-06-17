@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <UIView+Toast.h>
 #import <UIImageView+WebCache.h>
 
 @interface ViewController ()
@@ -20,11 +21,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self _testJsPatch];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)_testJsPatch {
+    [self.view makeToast:@"LocalToast"];
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
