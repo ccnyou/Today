@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Bugly (2.2.3)
   - FLAnimatedImage (1.0.12)
   - JSPatch (1.0):
     - JSPatch/Core (= 1.0)
@@ -32,6 +33,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - Bugly
   - JSPatch
   - NYTPhotoViewer
   - SDWebImage
@@ -39,6 +41,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bugly: db578ea92b2a6b132cc19f79adf3bcd3b0fe6769
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   JSPatch: c689ea4dde17441f2f4a95d40dfedb8900c20099
   NYTPhotoViewer: e80e8767f3780d2df37c6f72cbab15d6c7232911
