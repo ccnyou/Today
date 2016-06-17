@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+pod 'JSPatch'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'NYTPhotoViewer'
+xcodeproj 'xcodeproj/today.xcodeproj'
+workspace 'xcodeproj/today'
